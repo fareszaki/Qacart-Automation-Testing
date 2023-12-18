@@ -1,0 +1,11 @@
+<suite name="Suite1" verbose="1" >
+    <test name="regression">
+        <classes>
+            <class name = "HomeTest"/>
+            <class name ="SingUpTest"/>
+            <class name = "LoginTest"/>
+            <class name ="ToDoTest"/>
+            <class name = "LogOutTest"/>
+        </classes>
+    </test>
+</suite>

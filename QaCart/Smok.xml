@@ -1,0 +1,28 @@
+<suite name="Suite1" verbose="1" >
+    <test name="regression">
+        <classes>
+            <class name = "HomeTest"/>
+              <methods>
+                  <include name="Verify_that_we_can_navigate_to_LoginPage"/>
+                  <include name="Verify_that_we_can_navigate_to_SingupPage"/>
+              </methods>
+            <class name ="SingUpTest"/>
+             <methods>
+                 <include name="test_singup_with_valid_credentials"/>
+             </methods>
+            <class name = "LoginTest"/>
+            <methods>
+                <include name="verify_that_we_can_login_succesfully"/>
+            </methods>
+            <class name ="ToDoTest"/>
+            <methods>
+                <include name="verify_that_we_can_create_Todo_Task"/>
+                <include name="verify_that_we_can_Delete_TodoTask"/>
+            </methods>
+            <class name = "LogOutTest"/>
+            <methods>
+                <include name="TestLogoutModule"/>
+            </methods>
+        </classes>
+    </test>
+</suite>
